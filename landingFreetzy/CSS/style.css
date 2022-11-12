@@ -546,3 +546,48 @@ footer .logo{
         margin-bottom: 2rem;
     }
 }
+/*Css Rutas */
+.rutasHeader{
+    margin-left: 3rem;
+}
+.rutasHeader h1{
+    font-size: var(--md);
+    color: var(--dark-blue);
+    padding: 3rem 2rem;
+}
+.rutasHeader p{
+    color: var(--dark-blue);
+    font-size: var(--smd);
+    margin-bottom: 2rem;
+}
+
+.rutasTittle{
+    margin: auto;
+    display: table;
+    
+}
+.rutasTittle h1{
+    font-size: var(--md);
+    float:left;
+    color: var(--dark-blue);
+    position: relative
+}
+
+.rutasTittle h1 span {
+position: absolute;
+right: 0;
+width: 0;
+background: #ffffff;
+border-left: 1px solid #000;
+
+animation: maquina 5s infinite alternate steps(28);
+}
+
+@keyframes maquina {
+    from{
+        width: 100%;
+    }
+    to{
+        width: 0;
+    }
+}
