@@ -21,6 +21,7 @@ p{
     --orange: #F3603C;
     --dark-blue: #232C50;
     --light-grey: #B3B2B7;
+    --dark: #1E1E26;
     --sm: 1.5rem;
     --smd: 1.8rem;
     --md: 3.5rem;
@@ -76,7 +77,9 @@ header{
     width: 100%;
     font-size: var(--sm);
     justify-content: space-between;
-    padding: 3rem 6rem;
+    padding: 1rem 6rem;
+    background-color: var(--dark);
+    
 }
 
 header ul{
@@ -87,7 +90,7 @@ header ul{
 
 header ul a{
     text-decoration: none;
-    color: var(--dark-blue);
+    color: var(--light-grey);
     padding: 1.5rem;
     
 }
@@ -190,12 +193,13 @@ header ul a:hover{
    
 }
 .container-profile .profiles .profile{
-    background: #FAFAFA;
+    background: #D5D8DC;
     align-items: center;
     height:30rem;
     padding-top:8rem;
     position: relative;
     margin-left: 2rem;
+    border-radius: 6px;
 }
 .container-profile h1{
    
@@ -212,7 +216,7 @@ header ul a:hover{
     font-size: var(--sm);
     text-align: center;
     margin-bottom: 2rem;
-    color: var(--light-grey);
+    color: var(--dark-blue);
 }
 
 .container-profile .btn-orange{
@@ -535,7 +539,7 @@ footer .logo{
         justify-content: center;
         flex-direction: column;
         padding: 4rem 6rem;
-        background-color: #1E1E26;
+        background-color: var(--dark);
        
         color: white;
     }
