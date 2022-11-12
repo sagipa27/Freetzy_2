@@ -64,7 +64,7 @@ p{
     opacity: 0.5;
 }
 .btn-number{
-    background-color: var(--orange);
+    background-color: var(--dark);
     border: none;
     color: white;
     border-radius: 3.125rem;
@@ -160,6 +160,9 @@ header ul a:hover{
     margin-top:4rem;
     display: flex;
     margin-bottom: 3rem;
+    background-color: #D5D8DC;
+    padding: 1.5rem 1.5rem;
+    border-radius: 6px;
 }
 .card h2{
     color: var(--dark-blue);
@@ -169,7 +172,7 @@ header ul a:hover{
 
 .card p{
     font-size: var(--sm);
-    color: var(--light-grey)
+    color: var(--dark)
 }
 
 
@@ -300,7 +303,7 @@ footer p{
     text-align: right;
 }
 footer ul a:hover{
-    color: var(--orange);
+    opacity: 0.5;
 }
 footer .logo{
     margin-bottom:3rem;
@@ -310,7 +313,7 @@ footer .logo{
  
   }
 .icon:hover {
-    fill: var(--orange);
+    fill: var(--light-grey);
  
   }
 .foot-nav{
