@@ -105,18 +105,22 @@ header ul a:hover{
    display: none;
    
  }
-.rutasHeader{
-    margin-left: 3rem;
+ .rutasHeader {
+    background-color: #f3603c;
+    height: 150px;
 }
+
 .rutasHeader h1{
     font-size: var(--md);
-    color: var(--dark-blue);
+    color: white;
     padding: 3rem 2rem;
 }
 .rutasHeader p{
-    color: var(--dark-blue);
+    color: white;
     font-size: var(--smd);
     margin-bottom: 2rem;
+    padding: 0.1rem 2rem;
+
 }
 
 .rutasTittle{
@@ -124,79 +128,13 @@ header ul a:hover{
     display: table;
     
 }
-.rutasTittle h1{
-    font-size: var(--md);
-    float:left;
-    color: var(--dark-blue);
-    position: relative
-}
-
-.rutasTittle h1 span {
-position: absolute;
-right: 0;
-width: 0;
-background: #ffffff;
-border-left: 1px solid #000;
-
-animation: maquina 5s infinite alternate steps(28);
-}
-
-@keyframes maquina {
-    from{
-        width: 100%;
-    }
-    to{
-        width: 0;
-    }
-}
-/*Css Rutas */
-.rutasHeader {
-    margin-left: 3rem;
-}
-
-.rutasHeader h1 {
-    font-size: var(--md);
-    color: var(--dark-blue);
-    padding: 3rem 2rem;
-}
-
-.rutasHeader p {
-    color: var(--dark-blue);
-    font-size: var(--smd);
-    margin-bottom: 2rem;
-}
-
-.rutasTittle {
-    margin: auto;
-    display: table;
-
-}
 
 .rutasTittle h1 {
+    display: inline-block;
     font-size: var(--md);
-    float: left;
     color: var(--dark-blue);
     position: relative
-}
-
-.rutasTittle h1 span {
-    position: absolute;
-    right: 0;
-    width: 0;
-    background: #ffffff;
-    border-left: 1px solid #000;
-
-    animation: maquina 5s infinite alternate steps(28);
-}
-
-@keyframes maquina {
-    from {
-        width: 100%;
-    }
-
-    to {
-        width: 0;
-    }
+    
 }
 
 .background1-left-column {
@@ -210,7 +148,7 @@ animation: maquina 5s infinite alternate steps(28);
 .containerCard{
     display: flex;
     justify-content: center;
-    height: 100vh;
+    height: 55rem;
     align-items: center;
 }
 
@@ -227,6 +165,9 @@ animation: maquina 5s infinite alternate steps(28);
    
 }
 
+.cardRutas :hover{
+    opacity: 0.5;
+}
 .cardRutas h6 {
     opacity: 0.6;
     letter-spacing: .1rem;
@@ -283,6 +224,18 @@ animation: maquina 5s infinite alternate steps(28);
     height: 20%;
     margin-bottom: 90%;
 }
+.cCardImagen2 {
+
+    width: 75%;
+    height: 20%;
+    margin-bottom: 90%;
+}
+.cCardImagen3 {
+
+    width: 5p0x;
+    height: 40%;
+    margin-bottom: 50%;
+}
 
 .cardRutas2 {
     background-color: lightcyan;
@@ -294,4 +247,297 @@ animation: maquina 5s infinite alternate steps(28);
     width: 35rem;
     height: 24rem;
 
+}
+
+/* Footer*/
+footer{
+    display: flex;
+    width: 100%;
+    font-size: var(--sm);
+    justify-content: space-between;
+    padding: 4rem 6rem;
+    background-color: #1E1E26;
+    height: 20rem;
+    color: white;
+}
+
+.form-foot{
+    display: flex;
+    align-items: center;
+    margin-bottom:5rem;
+
+}
+.form-foot button{
+    width: 6rem;
+    margin-left: 2rem;
+}
+.form-foot input{
+    border-radius: 3.125rem;
+    height: 4rem;
+    text-align: center;
+}
+
+footer ul{
+    list-style: none;
+} 
+
+footer ul a{
+    text-decoration: none;
+    color: white;
+} 
+
+footer p{
+    font-size: 1rem;
+    text-align: right;
+}
+footer ul a:hover{
+    opacity: 0.5;
+}
+footer .logo{
+    margin-bottom:3rem;
+}
+.icon {
+    fill: white;
+ 
+  }
+.icon:hover {
+    fill: var(--light-grey);
+ 
+  }
+.foot-nav{
+    display: flex;
+    justify-content: start;
+}
+.foot-nav div{
+    margin-right:10rem;
+}
+ 
+@media (max-width: 575px){
+    *{
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+   
+    header{
+        display: flex;
+        width: 100%;
+        font-size: var(--sm);
+        justify-content: space-between;
+        padding: 3rem 2rem;
+    }
+    
+    header ul{
+        display: none;
+        list-style: none;
+        align-items: center;
+    }
+    
+    header ul a{
+        text-decoration: none;
+        color: var(--dark-blue);
+        padding: 1.5rem;
+        
+    }
+     header .menu-mobile{
+        width:3rem;
+        height: 3rem;
+       align-self: center;
+       display: block;
+     }
+    
+     header .btn-orange{
+        display: none;
+     }
+    
+    
+    .item2{
+        order: -1;
+    }
+    .container{
+        margin-top: 4rem;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .container >div{
+        width: 100%;
+        margin: 1rem;
+        text-align: center;
+    }
+    .brin {
+        padding-top: 3rem;
+    }
+    .brin h1{
+        font-size: var(--lg);
+        color: var(--dark-blue);
+        padding: 3rem 2rem;
+    }
+    
+    .brin p, .what p{
+        margin-top:2rem;
+        margin-bottom:4rem;
+        font-size: var(--sm);
+        padding: 0rem 2rem;
+    }
+   
+    .charts{
+        max-width: 100%;
+        height:100%;
+    }
+    .what{
+        margin-top: 5rem;
+        margin-bottom: 5rem;
+    }
+    .what h1{
+        font-size: var(--md);
+        color: var(--dark-blue);
+        padding: 3rem 2rem;
+    }
+    .card{
+        margin-top:0rem;
+        display: flex;
+        margin-bottom: 3rem;
+    }
+    .card h2{
+        color: var(--dark-blue);
+        font-size: var(--smd);
+        margin-bottom: 2rem;
+        text-align: left;
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+    }
+    
+    .card p{
+        font-size: var(--sm);
+        color: var(--light-grey);
+        text-align: left;
+        padding-left: 1.5rem;
+    }
+    .text{
+        width: 20rem;
+    }
+    .container .item .pd-card{
+        margin-top:0rem;
+    }
+    .btn-number{
+        margin-right: 0rem;
+    }
+    .container-profile{
+        display: flex;
+        margin-top:4rem;
+        flex-direction: column;
+        margin-left:1rem;
+        margin-right:1rem;
+     
+    }
+    
+    
+    .container-profile .profiles{
+        display: flex;
+     
+        align-items: center;
+        width:100%;
+        padding-right: 2rem;
+        padding-left: 2rem;
+       
+    }
+    .container-profile .profiles .profile{
+        background: #FAFAFA;
+        align-items: center;
+       
+        padding-top:8rem;
+        position: relative;
+        display: none;
+    }
+    #perfil-show{
+        display: block;
+    }
+    .container-profile h1{
+       
+        font-size: var(--md);
+        text-align: center;
+        color: var(--dark-blue);
+    }
+    .container-profile h2{
+        font-size: var(--smd);
+        text-align: center;
+        margin-bottom: 3rem;
+    }
+    .container-profile p{
+        font-size: var(--sm);
+        text-align: center;
+        margin-bottom: 2rem;
+        color: var(--light-grey);
+    }
+    
+    .container-profile .btn-orange{
+        margin-top: 4rem;
+        align-self: center;
+    }
+    
+    .container-profile .profiles .profile img{
+       position: absolute;
+        left: 12.5rem;
+        bottom:26rem;
+        height: 9rem;
+    }
+    .profile1{
+        display: none;
+    }
+    .slider{
+        margin-top: 6rem;
+        width: 4rem;
+        align-self: center;
+        display: block;
+    }
+    .pre-foot{
+        background-color: var(--orange);
+        display: flex; 
+        justify-content: center;
+        flex-direction: column; 
+        width: 100%;
+        height: auto;
+        align-items: center;
+        margin-top: 8rem;
+    }
+    
+    .pre-foot h2{
+        font-size: var(--md);
+        color: white;
+        width: 100%;
+        text-align: center;
+        margin-top: 4rem;
+    }
+    
+    .pre-foot .phara{
+        padding-left: 0;
+        padding-right: 0rem;
+    }
+    
+    .pre-foot .btn-foot{
+        width:30%;
+       padding-left: 0rem;
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+    }
+    footer{
+        display: flex;
+        width: 100%;
+        height: auto;
+        font-size: var(--sm);
+        justify-content: center;
+        flex-direction: column;
+        padding: 4rem 6rem;
+        background-color: var(--dark);
+       
+        color: white;
+    }
+    .item5{
+        margin-bottom: 2rem;
+    }
+    .item4{
+        margin-bottom: 2rem;
+    }
 }
