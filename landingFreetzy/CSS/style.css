@@ -1,23 +1,23 @@
-*{
+* {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
-html{
+html {
     font-size: 62.5%;
     font-family: 'Be Vietnam Pro', sans-serif;
 }
- 
-main div{
+
+main div {
     font-size: 1.6rem;
 }
 
-p{
+p {
     font-size: 1.6rem;
 }
 
-:root{
+:root {
     --orange: #F3603C;
     --dark-blue: #232C50;
     --light-grey: #B3B2B7;
@@ -26,20 +26,22 @@ p{
     --md: 3.5rem;
     --lg: 5rem;
 }
-.logo{
-    height: 5rem;  
-    align-self: center;  
+
+.logo {
+    height: 5rem;
+    align-self: center;
 }
 
-.btn-orange{
+.btn-orange {
     background-color: var(--orange);
     border: none;
-    
+
     border-radius: 3.125rem;
     width: 12rem;
     height: 4rem;
 }
-.btn-orange a{
+
+.btn-orange a {
     text-decoration: none;
     color: white;
 }
@@ -48,21 +50,24 @@ p{
     opacity: 0.5;
 }
 
-.btn-white{
+.btn-white {
     background-color: white;
     border: none;
     border-radius: 3.125rem;
     width: 12rem;
     height: 4rem;
 }
-.btn-white a{
+
+.btn-white a {
     text-decoration: none;
     color: var(--orange);
 }
+
 .btn-white:hover {
     opacity: 0.5;
 }
-.btn-number{
+
+.btn-number {
     background-color: var(--orange);
     border: none;
     color: white;
@@ -71,7 +76,8 @@ p{
     height: 4rem;
     margin-right: 2rem;
 }
-header{
+
+header {
     display: flex;
     width: 100%;
     font-size: var(--sm);
@@ -79,159 +85,171 @@ header{
     padding: 3rem 6rem;
 }
 
-header ul{
+header ul {
     display: flex;
     list-style: none;
     align-items: center;
 }
 
-header ul a{
+header ul a {
     text-decoration: none;
     color: var(--dark-blue);
     padding: 1.5rem;
-    
+
 }
-header ul a:hover{
+
+header ul a:hover {
     opacity: 0.5;
 }
- header .menu-mobile{
-    width:3rem;
-    height: 3rem;
-   align-self: center;
-   display: none;
-   
- }
 
-.container{
+header .menu-mobile {
+    width: 3rem;
+    height: 3rem;
+    align-self: center;
+    display: none;
+
+}
+
+.container {
     margin-top: 8rem;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
-.container >div{
+
+.container>div {
     height: auto;
     width: 40%;
     margin: 1rem;
 }
 
-.charts{
+.charts {
     max-width: 100%;
-  
+
 }
 
 .brin {
     padding-top: 7rem;
 }
-.brin h1{
+
+.brin h1 {
     font-size: var(--lg);
     color: var(--dark-blue);
     padding-right: 7rem;
 }
 
-.brin p{
-    margin-top:4rem;
-    margin-bottom:4rem;
+.brin p {
+    margin-top: 4rem;
+    margin-bottom: 4rem;
     font-size: var(--sm);
     padding-right: 23rem;
 }
 
 
-.what{
+.what {
     margin-top: 10rem;
     margin-bottom: 15rem;
 }
-.what h1{
+
+.what h1 {
     font-size: var(--md);
     color: var(--dark-blue);
     padding-right: 7rem;
 }
 
-.what p{
-    margin-top:4rem;
-    margin-bottom:4rem;
+.what p {
+    margin-top: 4rem;
+    margin-bottom: 4rem;
     font-size: var(--sm);
     padding-right: 18rem;
 }
 
-.card{
-    margin-top:4rem;
+.card {
+    margin-top: 4rem;
     display: flex;
     margin-bottom: 3rem;
 }
-.card h2{
+
+.card h2 {
     color: var(--dark-blue);
     font-size: var(--smd);
     margin-bottom: 2rem;
 }
 
-.card p{
+.card p {
     font-size: var(--sm);
     color: var(--light-grey)
 }
 
 
-.container-profile{
+.container-profile {
     display: flex;
-    margin-top:4rem;
+    margin-top: 4rem;
     flex-direction: column;
-    margin-left:15rem;
-    margin-right:15rem;
-   
-    
+    margin-left: 15rem;
+    margin-right: 15rem;
+
+
 }
 
-.container-profile .profiles{
+.container-profile .profiles {
     display: flex;
     margin-top: 12rem;
     align-items: center;
-    width:120rem;
-    width:100%;
+    width: 120rem;
+    width: 100%;
 
-   
+
 }
-.container-profile .profiles .profile{
+
+.container-profile .profiles .profile {
     background: #FAFAFA;
     align-items: center;
-    height:30rem;
-    padding-top:8rem;
+    height: 30rem;
+    padding-top: 8rem;
     position: relative;
     margin-left: 2rem;
 }
-.container-profile h1{
-   
+
+.container-profile h1 {
+
     font-size: var(--md);
     text-align: center;
     color: var(--dark-blue);
 }
-.container-profile h2{
+
+.container-profile h2 {
     font-size: var(--md);
     text-align: center;
     margin-bottom: 3rem;
 }
-.container-profile p{
+
+.container-profile p {
     font-size: var(--sm);
     text-align: center;
     margin-bottom: 2rem;
     color: var(--light-grey);
 }
 
-.container-profile .btn-orange{
+.container-profile .btn-orange {
     margin-top: 4rem;
     align-self: center;
 }
 
-.container-profile .profiles .profile img{
-   position: absolute;
+.container-profile .profiles .profile img {
+    position: absolute;
     left: 13rem;
-    bottom:26rem;
+    bottom: 26rem;
     height: 9rem;
 }
-.slider{
+
+.slider {
     display: none;
 }
-.pre-foot{
+
+.pre-foot {
     background-color: var(--orange);
-    display: flex; 
+    display: flex;
     justify-content: center;
     width: 100%;
     height: 20rem;
@@ -239,23 +257,23 @@ header ul a:hover{
     margin-top: 15rem;
 }
 
-.pre-foot h2{
+.pre-foot h2 {
     font-size: var(--md);
     color: white;
 }
 
-.pre-foot .phara{
+.pre-foot .phara {
     padding-left: 2rem;
     padding-right: 2rem;
     width: 50%;
 }
 
-.pre-foot .btn-foot{
-    width:30%;
+.pre-foot .btn-foot {
+    width: 30%;
     padding-left: 6rem;
 }
 
-footer{
+footer {
     display: flex;
     width: 100%;
     font-size: var(--sm);
@@ -266,146 +284,164 @@ footer{
     color: white;
 }
 
-.form-foot{
+.form-foot {
     display: flex;
     align-items: center;
-    margin-bottom:5rem;
+    margin-bottom: 5rem;
 
 }
-.form-foot button{
+
+.form-foot button {
     width: 6rem;
     margin-left: 2rem;
 }
-.form-foot input{
+
+.form-foot input {
     border-radius: 3.125rem;
     height: 4rem;
     text-align: center;
 }
 
-footer ul{
+footer ul {
     list-style: none;
-} 
+}
 
-footer ul a{
+footer ul a {
     text-decoration: none;
     color: white;
-} 
+}
 
-footer p{
+footer p {
     font-size: 1rem;
     text-align: right;
 }
-footer ul a:hover{
+
+footer ul a:hover {
     color: var(--orange);
 }
-footer .logo{
-    margin-bottom:3rem;
+
+footer .logo {
+    margin-bottom: 3rem;
 }
+
 .icon {
     fill: white;
- 
-  }
+
+}
+
 .icon:hover {
     fill: var(--orange);
- 
-  }
-.foot-nav{
+
+}
+
+.foot-nav {
     display: flex;
     justify-content: start;
 }
-.foot-nav div{
-    margin-right:10rem;
+
+.foot-nav div {
+    margin-right: 10rem;
 }
- 
-@media (max-width: 575px){
-    *{
+
+@media (max-width: 575px) {
+    * {
         box-sizing: border-box;
         margin: 0;
         padding: 0;
     }
-   
-    header{
+
+    header {
         display: flex;
         width: 100%;
         font-size: var(--sm);
         justify-content: space-between;
         padding: 3rem 2rem;
     }
-    
-    header ul{
+
+    header ul {
         display: none;
         list-style: none;
         align-items: center;
     }
-    
-    header ul a{
+
+    header ul a {
         text-decoration: none;
         color: var(--dark-blue);
         padding: 1.5rem;
-        
+
     }
-     header .menu-mobile{
-        width:3rem;
+
+    header .menu-mobile {
+        width: 3rem;
         height: 3rem;
-       align-self: center;
-       display: block;
-     }
-    
-     header .btn-orange{
+        align-self: center;
+        display: block;
+    }
+
+    header .btn-orange {
         display: none;
-     }
-    
-    
-    .item2{
+    }
+
+
+    .item2 {
         order: -1;
     }
-    .container{
+
+    .container {
         margin-top: 4rem;
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
         flex-direction: column;
     }
-    .container >div{
+
+    .container>div {
         width: 100%;
         margin: 1rem;
         text-align: center;
     }
+
     .brin {
         padding-top: 3rem;
     }
-    .brin h1{
+
+    .brin h1 {
         font-size: var(--lg);
         color: var(--dark-blue);
         padding: 3rem 2rem;
     }
-    
-    .brin p, .what p{
-        margin-top:2rem;
-        margin-bottom:4rem;
+
+    .brin p,
+    .what p {
+        margin-top: 2rem;
+        margin-bottom: 4rem;
         font-size: var(--sm);
         padding: 0rem 2rem;
     }
-   
-    .charts{
+
+    .charts {
         max-width: 100%;
-        height:100%;
+        height: 100%;
     }
-    .what{
+
+    .what {
         margin-top: 5rem;
         margin-bottom: 5rem;
     }
-    .what h1{
+
+    .what h1 {
         font-size: var(--md);
         color: var(--dark-blue);
         padding: 3rem 2rem;
     }
-    .card{
-        margin-top:0rem;
+
+    .card {
+        margin-top: 0rem;
         display: flex;
         margin-bottom: 3rem;
     }
-    .card h2{
+
+    .card h2 {
         color: var(--dark-blue);
         font-size: var(--smd);
         margin-bottom: 2rem;
@@ -413,121 +449,134 @@ footer .logo{
         padding-left: 1.5rem;
         padding-right: 1.5rem;
     }
-    
-    .card p{
+
+    .card p {
         font-size: var(--sm);
         color: var(--light-grey);
         text-align: left;
         padding-left: 1.5rem;
     }
-    .text{
+
+    .text {
         width: 20rem;
     }
-    .container .item .pd-card{
-        margin-top:0rem;
+
+    .container .item .pd-card {
+        margin-top: 0rem;
     }
-    .btn-number{
+
+    .btn-number {
         margin-right: 0rem;
     }
-    .container-profile{
+
+    .container-profile {
         display: flex;
-        margin-top:4rem;
+        margin-top: 4rem;
         flex-direction: column;
-        margin-left:1rem;
-        margin-right:1rem;
-     
+        margin-left: 1rem;
+        margin-right: 1rem;
+
     }
-    
-    
-    .container-profile .profiles{
+
+
+    .container-profile .profiles {
         display: flex;
-     
+
         align-items: center;
-        width:100%;
+        width: 100%;
         padding-right: 2rem;
         padding-left: 2rem;
-       
+
     }
-    .container-profile .profiles .profile{
+
+    .container-profile .profiles .profile {
         background: #FAFAFA;
         align-items: center;
-       
-        padding-top:8rem;
+
+        padding-top: 8rem;
         position: relative;
         display: none;
     }
-    #perfil-show{
+
+    #perfil-show {
         display: block;
     }
-    .container-profile h1{
-       
+
+    .container-profile h1 {
+
         font-size: var(--md);
         text-align: center;
         color: var(--dark-blue);
     }
-    .container-profile h2{
+
+    .container-profile h2 {
         font-size: var(--smd);
         text-align: center;
         margin-bottom: 3rem;
     }
-    .container-profile p{
+
+    .container-profile p {
         font-size: var(--sm);
         text-align: center;
         margin-bottom: 2rem;
         color: var(--light-grey);
     }
-    
-    .container-profile .btn-orange{
+
+    .container-profile .btn-orange {
         margin-top: 4rem;
         align-self: center;
     }
-    
-    .container-profile .profiles .profile img{
-       position: absolute;
+
+    .container-profile .profiles .profile img {
+        position: absolute;
         left: 12.5rem;
-        bottom:26rem;
+        bottom: 26rem;
         height: 9rem;
     }
-    .profile1{
+
+    .profile1 {
         display: none;
     }
-    .slider{
+
+    .slider {
         margin-top: 6rem;
         width: 4rem;
         align-self: center;
         display: block;
     }
-    .pre-foot{
+
+    .pre-foot {
         background-color: var(--orange);
-        display: flex; 
+        display: flex;
         justify-content: center;
-        flex-direction: column; 
+        flex-direction: column;
         width: 100%;
         height: auto;
         align-items: center;
         margin-top: 8rem;
     }
-    
-    .pre-foot h2{
+
+    .pre-foot h2 {
         font-size: var(--md);
         color: white;
         width: 100%;
         text-align: center;
         margin-top: 4rem;
     }
-    
-    .pre-foot .phara{
+
+    .pre-foot .phara {
         padding-left: 0;
         padding-right: 0rem;
     }
-    
-    .pre-foot .btn-foot{
-        width:30%;
-       padding-left: 0rem;
+
+    .pre-foot .btn-foot {
+        width: 30%;
+        padding-left: 0rem;
         margin-top: 3rem;
         margin-bottom: 3rem;
     }
-    footer{
+
+    footer {
         display: flex;
         width: 100%;
         height: auto;
@@ -536,58 +585,162 @@ footer .logo{
         flex-direction: column;
         padding: 4rem 6rem;
         background-color: #1E1E26;
-       
+
         color: white;
     }
-    .item5{
+
+    .item5 {
         margin-bottom: 2rem;
     }
-    .item4{
+
+    .item4 {
         margin-bottom: 2rem;
     }
 }
+
 /*Css Rutas */
-.rutasHeader{
+.rutasHeader {
     margin-left: 3rem;
 }
-.rutasHeader h1{
+
+.rutasHeader h1 {
     font-size: var(--md);
     color: var(--dark-blue);
     padding: 3rem 2rem;
 }
-.rutasHeader p{
+
+.rutasHeader p {
     color: var(--dark-blue);
     font-size: var(--smd);
     margin-bottom: 2rem;
 }
 
-.rutasTittle{
+.rutasTittle {
     margin: auto;
     display: table;
-    
+
 }
-.rutasTittle h1{
+
+.rutasTittle h1 {
     font-size: var(--md);
-    float:left;
+    float: left;
     color: var(--dark-blue);
     position: relative
 }
 
 .rutasTittle h1 span {
-position: absolute;
-right: 0;
-width: 0;
-background: #ffffff;
-border-left: 1px solid #000;
+    position: absolute;
+    right: 0;
+    width: 0;
+    background: #ffffff;
+    border-left: 1px solid #000;
 
-animation: maquina 5s infinite alternate steps(28);
+    animation: maquina 5s infinite alternate steps(28);
 }
 
 @keyframes maquina {
-    from{
+    from {
         width: 100%;
     }
-    to{
+
+    to {
         width: 0;
     }
+}
+
+.background1-left-column {
+    background: #349ff9;
+}
+.background2-left-column {
+    background: #349ff9;
+}
+
+
+.containerCard{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+}
+
+.cardRutas{
+    background-color: lightcyan;
+    border-radius: 1rem;
+    box-shadow: 0 1rem 1rem rgba(0, 0, 0, 2);
+    display: flex;
+    margin: 1.5rem;
+    overflow: hidden;
+    width: 35rem;
+    height: 24rem;
+    margin-bottom: 20%;
+   
+}
+
+.cardRutas h6 {
+    opacity: 0.6;
+    letter-spacing: .1rem;
+    text-transform: uppercase;
+
+}
+
+.cardRutas h2 {
+    letter-spacing: .1rem;
+    margin: 1rem 0;
+    color: black;
+}
+
+.left-column {
+    color: white;
+    padding: 2rem;
+    max-width: 10rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.left-column h2 {
+    color: #ffffff;
+}
+
+.right-column {
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.right-column p {
+    font-size: .9rem;
+    color: #000;
+}
+
+.startButton {
+    border-radius: 3rem;
+    box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.2);
+    font-size: 1.2rem;
+    padding: .8rem 1.5rem;
+    letter-spacing: .1rem;
+    align-self: flex-end;
+
+}
+
+.cCardImagen {
+
+    width: 55%;
+    height: 20%;
+    margin-bottom: 90%;
+}
+
+.cardRutas2 {
+    background-color: lightcyan;
+    border-radius: 1rem;
+    box-shadow: 0 1rem 1rem rgba(0, 0, 0, 2);
+    display: flex;
+    margin: 1.5rem;
+    overflow: hidden;
+    width: 35rem;
+    height: 24rem;
+
 }
