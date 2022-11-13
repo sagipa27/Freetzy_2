@@ -108,6 +108,7 @@ header ul a:hover{
  .rutasHeader {
     background-color: #f3603c;
     height: 150px;
+    text-align: center;
 }
 
 .rutasHeader h1{
@@ -126,6 +127,7 @@ header ul a:hover{
 .rutasTittle{
     margin: auto;
     display: table;
+    margin-top: 2rem;
     
 }
 
@@ -138,22 +140,20 @@ header ul a:hover{
 }
 
 .background1-left-column {
-    background: #349ff9;
+    background: var(--light-grey);
 }
-.background2-left-column {
-    background: #349ff9;
-}
-
 
 .containerCard{
     display: flex;
     justify-content: center;
-    height: 40rem;
+    height: auto;
     align-items: center;
+    flex-wrap: wrap;
+    margin-top: 2rem;
 }
 
 .cardRutas{
-    background-color: lightcyan;
+    background-color: white;
     border-radius: 1rem;
     box-shadow: 0 1rem 1rem rgba(0, 0, 0, 2);
     display: flex;
@@ -204,17 +204,18 @@ header ul a:hover{
 }
 
 .right-column p {
-    font-size: .9rem;
+    font-size: 1.2rem;
     color: #000;
 }
 
 .startButton {
+    
     border-radius: 3rem;
     box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.2);
     font-size: 1.2rem;
     padding: .8rem 1.5rem;
     letter-spacing: .1rem;
-    align-self: flex-end;
+    align-self: center;
 
 }
 
@@ -236,7 +237,7 @@ header ul a:hover{
     height: 40%;
     margin-bottom: 50%;
 }
-containerCard
+
 .cardRutas2 {
     background-color: lightcyan;
     border-radius: 1rem;
