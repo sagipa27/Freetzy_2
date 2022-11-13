@@ -148,7 +148,7 @@ header ul a:hover{
 .containerCard{
     display: flex;
     justify-content: center;
-    height: 55rem;
+    height: 40rem;
     align-items: center;
 }
 
@@ -161,7 +161,7 @@ header ul a:hover{
     overflow: hidden;
     width: 35rem;
     height: 24rem;
-    margin-bottom: 20%;
+    margin-bottom: 5%;
    
 }
 
