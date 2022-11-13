@@ -1,0 +1,297 @@
+/*Css Rutas */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 62.5%;
+    font-family: 'Be Vietnam Pro', sans-serif;
+}
+ 
+main div{
+    font-size: 1.6rem;
+}
+
+p{
+    font-size: 1.6rem;
+}
+
+:root{
+    --orange: #F3603C;
+    --dark-blue: #232C50;
+    --light-grey: #B3B2B7;
+    --dark: #1E1E26;
+    --sm: 1.5rem;
+    --smd: 1.8rem;
+    --md: 3.5rem;
+    --lg: 5rem;
+}
+.logo{
+    height: 5rem;  
+    align-self: center;  
+}
+
+.btn-orange{
+    background-color: var(--orange);
+    border: none;
+    
+    border-radius: 3.125rem;
+    width: 12rem;
+    height: 4rem;
+}
+.btn-orange a{
+    text-decoration: none;
+    color: white;
+}
+
+.btn-orange:hover {
+    opacity: 0.5;
+}
+
+.btn-white{
+    background-color: white;
+    border: none;
+    border-radius: 3.125rem;
+    width: 12rem;
+    height: 4rem;
+}
+.btn-white a{
+    text-decoration: none;
+    color: var(--orange);
+}
+.btn-white:hover {
+    opacity: 0.5;
+}
+.btn-number{
+    background-color: var(--orange);
+    border: none;
+    color: white;
+    border-radius: 3.125rem;
+    width: 6rem;
+    height: 4rem;
+    margin-right: 2rem;
+}
+header{
+    display: flex;
+    width: 100%;
+    font-size: var(--sm);
+    justify-content: space-between;
+    padding: 1rem 6rem;
+    background-color: var(--dark);
+    
+}
+
+header ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+header ul a{
+    text-decoration: none;
+    color: var(--light-grey);
+    padding: 1.5rem;
+    
+}
+header ul a:hover{
+    opacity: 0.5;
+}
+ header .menu-mobile{
+    width:3rem;
+    height: 3rem;
+   align-self: center;
+   display: none;
+   
+ }
+.rutasHeader{
+    margin-left: 3rem;
+}
+.rutasHeader h1{
+    font-size: var(--md);
+    color: var(--dark-blue);
+    padding: 3rem 2rem;
+}
+.rutasHeader p{
+    color: var(--dark-blue);
+    font-size: var(--smd);
+    margin-bottom: 2rem;
+}
+
+.rutasTittle{
+    margin: auto;
+    display: table;
+    
+}
+.rutasTittle h1{
+    font-size: var(--md);
+    float:left;
+    color: var(--dark-blue);
+    position: relative
+}
+
+.rutasTittle h1 span {
+position: absolute;
+right: 0;
+width: 0;
+background: #ffffff;
+border-left: 1px solid #000;
+
+animation: maquina 5s infinite alternate steps(28);
+}
+
+@keyframes maquina {
+    from{
+        width: 100%;
+    }
+    to{
+        width: 0;
+    }
+}
+/*Css Rutas */
+.rutasHeader {
+    margin-left: 3rem;
+}
+
+.rutasHeader h1 {
+    font-size: var(--md);
+    color: var(--dark-blue);
+    padding: 3rem 2rem;
+}
+
+.rutasHeader p {
+    color: var(--dark-blue);
+    font-size: var(--smd);
+    margin-bottom: 2rem;
+}
+
+.rutasTittle {
+    margin: auto;
+    display: table;
+
+}
+
+.rutasTittle h1 {
+    font-size: var(--md);
+    float: left;
+    color: var(--dark-blue);
+    position: relative
+}
+
+.rutasTittle h1 span {
+    position: absolute;
+    right: 0;
+    width: 0;
+    background: #ffffff;
+    border-left: 1px solid #000;
+
+    animation: maquina 5s infinite alternate steps(28);
+}
+
+@keyframes maquina {
+    from {
+        width: 100%;
+    }
+
+    to {
+        width: 0;
+    }
+}
+
+.background1-left-column {
+    background: #349ff9;
+}
+.background2-left-column {
+    background: #349ff9;
+}
+
+
+.containerCard{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+}
+
+.cardRutas{
+    background-color: lightcyan;
+    border-radius: 1rem;
+    box-shadow: 0 1rem 1rem rgba(0, 0, 0, 2);
+    display: flex;
+    margin: 1.5rem;
+    overflow: hidden;
+    width: 35rem;
+    height: 24rem;
+    margin-bottom: 20%;
+   
+}
+
+.cardRutas h6 {
+    opacity: 0.6;
+    letter-spacing: .1rem;
+    text-transform: uppercase;
+
+}
+
+.cardRutas h2 {
+    letter-spacing: .1rem;
+    margin: 1rem 0;
+    color: black;
+}
+
+.left-column {
+    color: white;
+    padding: 2rem;
+    max-width: 10rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.left-column h2 {
+    color: #ffffff;
+}
+
+.right-column {
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.right-column p {
+    font-size: .9rem;
+    color: #000;
+}
+
+.startButton {
+    border-radius: 3rem;
+    box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.2);
+    font-size: 1.2rem;
+    padding: .8rem 1.5rem;
+    letter-spacing: .1rem;
+    align-self: flex-end;
+
+}
+
+.cCardImagen {
+
+    width: 55%;
+    height: 20%;
+    margin-bottom: 90%;
+}
+
+.cardRutas2 {
+    background-color: lightcyan;
+    border-radius: 1rem;
+    box-shadow: 0 1rem 1rem rgba(0, 0, 0, 2);
+    display: flex;
+    margin: 1.5rem;
+    overflow: hidden;
+    width: 35rem;
+    height: 24rem;
+
+}
